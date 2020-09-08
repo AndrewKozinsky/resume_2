@@ -1,0 +1,75 @@
+// Секции
+.header {
+    position: relative;
+    z-index: 1;
+}
+.header__left-side {
+
+}
+.header__right-side {
+    display: none;
+}
+.header__menu-side {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 1.5rem;
+}
+
+@media (min-width: 550px) {
+    .header__menu-side {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__menu-side > * {
+        &:first-child {order: 2;}
+        &:nth-child(2) {order: 1;}
+    }
+}
+
+@media (min-width: 900px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__right-side {
+        display: block;
+
+        & > * {
+            margin-top: 1rem;
+        }
+    }
+
+    .header__menu-side > *:nth-child(1) {
+        display: none;
+    }
+}
+
+
+// Заголовок и подзаголовок
+.header__header {
+    font-size: 3.8rem;
+    line-height: 4rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.header__subtext {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 550px) {
+    .header__header {
+        font-size: 4.6rem;
+        line-height: 5rem;
+    }
+    .header__subtext {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .header__header {
+        width: 23rem;
+    }
+}

@@ -1,0 +1,105 @@
+@import "../../../../app/css/variables";
+
+// Компонент списка контактов
+.contacts {
+    position: relative;
+    display: inline-block;
+
+    &:hover .contacts__list{
+        display: grid;
+    }
+}
+
+// Кнопка со списком контактов
+.contacts__front-btn {
+    display: inline-block;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: $text-color;
+    background-color: transparent;
+    background-image: url('data:image/svg+xml;utf8,<svg width="16px" height="12px" viewBox="0 0 16 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="rgb(30, 30, 30)"><rect x="0" y="0" width="16" height="2"></rect><rect x="0" y="5" width="16" height="2"></rect><rect x="0" y="10" width="8" height="2"></rect></g></svg>');
+    background-repeat: no-repeat;
+    background-position: 15px 12px;
+
+    padding: 8px 15px 8px 40px;
+    border: 1px solid $black-link-border-color;
+    border-radius: $radius;
+
+    &:hover {
+        color: $black-link-color-hover;
+        border-color: $black-link-border-color-hover;
+    }
+}
+
+.contacts__list {
+    position: absolute;
+    display: none;
+
+    background-color: white;
+    border-radius: $radius;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .25);
+}
+
+@media (min-width: 900px) {
+    .contacts__list {
+        right: 0;
+    }
+}
+
+.contacts__btn {
+    display: inline-block;
+    padding: 5px 15px;
+    color: $text-color;
+    white-space: nowrap;
+    border: none;
+
+    &:hover {
+        color: $text-color;
+        background-color: rgb(231, 238, 247);
+        border: none;
+    }
+
+    &:nth-child(2n) {
+        margin-bottom: 10px;
+    }
+    &:first-child {
+        padding-top: 13px;
+    }
+    &:last-child {
+        padding-bottom: 12px;
+        margin-bottom: 0;
+    }
+}
+
+.contacts-btn__text {
+    position: relative;
+    margin-left: 27px;
+}
+
+.contacts-btn__text:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -27px;
+
+    width: 22px;
+    height: 20px;
+}
+.contacts-btn__text__mail:before {
+    background-image: url("../../../../footer/icons/mail.svg");
+}
+.contacts-btn__text__skype:before {
+    background-image: url("../../../../footer/icons/skype.svg");
+}
+.contacts-btn__text__hh:before {
+    background-image: url("../../../../footer/icons/hh.svg");
+}
+.contacts-btn__text__phone:before {
+    background-image: url("../../../../footer/icons/phone.svg");
+}
+.contacts-btn__text__telegram:before {
+    background-image: url("../../../../footer/icons/telegram.svg");
+}
+.contacts-btn__text__github:before {
+    background-image: url("../../../../footer/icons/github.svg");
+}

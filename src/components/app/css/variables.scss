@@ -1,0 +1,20 @@
+
+/* Text color */
+$text-color: rgb(30, 30, 30);
+
+/* Link colors */
+$link-color: rgb(0, 74, 219);
+$link-color-hover: darken($link-color, 10%);
+$link-border-color: rgba($link-color, .2);
+$link-border-color-hover: rgba($link-color, .4);
+
+$black-link-color: $text-color;
+$black-link-color-hover: darken($text-color, 10%);
+$black-link-border-color: rgba($text-color, .2);
+$black-link-border-color-hover: rgba($text-color, .4);
+
+// Border radius
+$radius: 3px;
+
+/* Animation function */
+//$cubic-bezier: cubic-bezier(0,.31,.71,.99);

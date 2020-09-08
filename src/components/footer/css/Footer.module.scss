@@ -1,0 +1,106 @@
+// Сетка
+.adr {
+    display: grid;
+    margin-top: 5rem;
+}
+
+@media (max-width: 470px) {
+    .adr__cell {
+        padding-bottom: 13px;
+    }
+    .adr__cell:nth-child(2n) {
+        padding-bottom: 27px;
+    }
+    .adr__cell:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 650px) {
+    .adr {
+        grid-template-columns: auto auto;
+        margin-top: 6rem;
+    }
+    .adr__cell:not(:nth-child(5)):not(:nth-child(6)) {
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1099px) {
+    .adr {
+        margin-top: 8rem;
+    }
+    .adr {
+        grid-template-columns: auto;
+    }
+    .adr__cell:not(:nth-child(2)):not(:nth-child(4)):not(:nth-child(6)) {
+        padding-bottom: 1.5rem;
+    }
+
+    // mail
+    // phone
+    .adr__cell:nth-child(2){
+        grid-row: 2;
+        grid-column: 1;
+    }
+    // skype
+    .adr__cell:nth-child(3){
+        grid-row: 1;
+        grid-column: 2;
+    }
+    // telegram
+    .adr__cell:nth-child(4){
+        grid-row: 2;
+        grid-column: 2;
+    }
+    // hh
+    .adr__cell:nth-child(5){
+        grid-row: 1;
+        grid-column: 3;
+    }
+    // github
+}
+
+@media (min-width: 1100px) {
+    .adr {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10rem;
+    }
+}
+
+
+// Ссылка
+.adr-link {
+    position: relative;
+    white-space: nowrap;
+    margin-left: 27px;
+}
+.adr-link:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: -27px;
+
+    width: 22px;
+    height: 20px;
+}
+
+.adr-link__mail:before {
+    background-image: url("../icons/mail.svg");
+}
+.adr-link__skype:before {
+    background-image: url("../icons/skype.svg");
+}
+.adr-link__hh:before {
+    background-image: url("../icons/hh.svg");
+}
+.adr-link__phone:before {
+    background-image: url("../icons/phone.svg");
+}
+.adr-link__telegram:before {
+    background-image: url("../icons/telegram.svg");
+}
+.adr-link__github:before {
+    background-image: url("../icons/github.svg");
+}

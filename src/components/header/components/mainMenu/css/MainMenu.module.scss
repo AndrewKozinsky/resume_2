@@ -1,0 +1,39 @@
+@import "../../.././../app/css/variables";
+
+.nav {
+    overflow: hidden;
+    border-radius: $radius;
+}
+
+.nav__link {
+    display: block;
+    line-height: 2.4rem;
+    color: $link-color;
+    background-color: white;
+
+    padding: 8px 20px;
+    border: none;
+
+    &:hover {
+        border: none;
+    }
+}
+
+.nav__link--active {
+    color: white;
+    background-color: $link-color;
+
+    &:hover {
+        color: white;
+    }
+}
+
+@media (min-width: 380px) {
+    .nav {
+        display: flex;
+        width: fit-content;
+    }
+    .nav__link {
+        display: inline-block;
+    }
+}

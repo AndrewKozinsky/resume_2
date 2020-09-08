@@ -1,0 +1,45 @@
+@import "../../app/css/variables";
+
+.menu {
+    display: grid;
+    grid-row-gap: 20px;
+}
+
+.menu__block-header {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.menu__block {
+    border-radius: $radius;
+    overflow: hidden;
+
+    & > *:first-child a {
+        padding-top: 9px;
+    }
+    & > *:last-child a {
+        padding-bottom: 9px;
+    }
+}
+
+.menu__link {
+    display: block;
+    background-color: white;
+
+    padding: 6px 20px;
+    border: none;
+    transition: background-color .13s;
+
+    &:hover {
+        background-color: lighten($link-color, 50%);
+        border: none;
+    }
+}
+
+.menu__link--current,
+.menu__link--current:hover{
+    color: white;
+    background-color: $link-color;
+}
