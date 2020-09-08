@@ -6,6 +6,7 @@ const SalaryPlate = () => {
     return (
         <aside className={s.salary}>
             <p className={s['salary__trafficlight']}>Готов выполнить тестовое задание</p>
+            <p className={s['salary__move']}>Готов к переезду</p>
             <p className={s['salary__text']}>Рассчитываю на оклад</p>
             <p className={s['salary__text-big']}>
                 от&nbsp;

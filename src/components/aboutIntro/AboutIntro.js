@@ -32,11 +32,11 @@ function MyPhoto() {
     const srcSetLargeJpeg = myPhotoJpeg + ", " + myPhotoJpeg_2x + ' 2x'
 
     return <picture>
-        <source type="image/webp" srcSet={myPhotoWebP} />
-        <source type="image/jpeg" srcSet={myPhotoJpeg} />
+        <source media="(max-width: 799px)" type="image/webp" srcSet={myPhotoWebP} />
+        <source media="(max-width: 799px)" type="image/jpeg" srcSet={myPhotoJpeg} />
 
-        <source media="(min-width: 800)" type="image/webp" srcSet={srcSetLargeWebP} />
-        <source media="(min-width: 800)" type="image/jpeg" srcSet={srcSetLargeJpeg} />
+        <source media="(min-width: 800px)" type="image/webp" srcSet={srcSetLargeWebP} />
+        <source media="(min-width: 800px)" type="image/jpeg" srcSet={srcSetLargeJpeg} />
 
         <img src={myPhotoJpeg} className={s.photo} alt='Андрей Козинский'/>
     </picture>
