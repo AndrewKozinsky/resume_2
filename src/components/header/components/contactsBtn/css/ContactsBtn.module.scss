@@ -60,7 +60,7 @@
     }
 
     &:nth-child(2n) {
-        margin-bottom: 10px;
+        margin-bottom: 12px;
     }
     &:first-child {
         padding-top: 13px;
@@ -102,4 +102,10 @@
 }
 .contacts-btn__text__github:before {
     background-image: url("../../../../footer/icons/github.svg");
+}
+.contacts-btn__text__twitter:before {
+    background-image: url("../../../../footer/icons/twitter.svg");
+}
+.contacts-btn__text__facebook:before {
+    background-image: url("../../../../footer/icons/facebook.svg");
 }

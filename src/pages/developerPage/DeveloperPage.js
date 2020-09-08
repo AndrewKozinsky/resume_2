@@ -8,6 +8,7 @@ import PortfolioMenu from "../../components/portfolioMenu"
 import ToolsSection from "./components/toolsSection"
 import ExperienceSection from "./components/experienceSection"
 import WorkSection from "./components/workSection"
+import AnotherWorksSection from "./components/anotherWorksSection/AnotherWorksSection"
 
 
 function useQuery() {
@@ -47,6 +48,27 @@ function DeveloperPage() {
             ]
         },
         {
+            name: 'React',
+            items: [
+                {
+                    title: 'Дилетантские чтения',
+                    query: 'readings'
+                },
+                {
+                    title: 'Таблица с элементами управления',
+                    query: 'table'
+                },
+                {
+                    title: 'Список дел',
+                    query: 'todo'
+                },
+                {
+                    title: 'Остальные работы',
+                    query: 'another'
+                }
+            ]
+        },
+        {
             name: 'Вёрстка',
             items: [
                 {
@@ -71,23 +93,6 @@ function DeveloperPage() {
                 },
             ]
         },
-        {
-            name: 'React',
-            items: [
-                {
-                    title: 'Дилетантские чтения',
-                    query: 'readings'
-                },
-                {
-                    title: 'Таблица с элементами управления',
-                    query: 'table'
-                },
-                {
-                    title: 'Список дел',
-                    query: 'todo'
-                }
-            ]
-        },
     ]
 
 
@@ -105,6 +110,7 @@ function DeveloperPage() {
         case 'readings': portfolioWork = <WorkSection type={query.get("work")} page='developer' />; break;
         case 'table': portfolioWork = <WorkSection type={query.get("work")} page='developer' />; break;
         case 'todo': portfolioWork = <WorkSection type={query.get("work")} page='developer' />; break;
+        case 'another': portfolioWork = <AnotherWorksSection />; break;
     }
 
     return (

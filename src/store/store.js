@@ -30,8 +30,18 @@ const initialState = {
         {
             prefix: 'github',
             text: 'github.com',
-            href: 'https://github.com'
-        }
+            href: 'https://github.com/andrewkozinsky'
+        },
+        {
+            prefix: 'twitter',
+            text: 'twitter.com',
+            href: 'https://twitter.com/andrewkozinsky'
+        },
+        {
+            prefix: 'facebook',
+            text: 'facebook.com',
+            href: 'https://www.facebook.com/andkozinskiy'
+        },
     ]
 }
 

@@ -6,7 +6,7 @@
 
 @media (max-width: 470px) {
     .adr__cell {
-        padding-bottom: 13px;
+        padding-bottom: 12px;
     }
     .adr__cell:nth-child(2n) {
         padding-bottom: 27px;
@@ -16,52 +16,29 @@
     }
 }
 
-@media (min-width: 470px) and (max-width: 650px) {
+@media (min-width: 470px) and (max-width: 1000px) {
     .adr {
         grid-template-columns: auto auto;
         margin-top: 6rem;
     }
-    .adr__cell:not(:nth-child(5)):not(:nth-child(6)) {
-        padding-bottom: 15px;
+    .adr__cell:not(:nth-child(7)):not(:nth-child(8)) {
+        padding-bottom: 12px;
+    }
+    .adr__cell:nth-child(3), .adr__cell:nth-child(4) {
+        padding-bottom: 27px !important;
     }
 }
-
-@media (min-width: 650px) and (max-width: 1099px) {
+@media (min-width: 1000px) and (max-width: 1600px) {
     .adr {
+        grid-template-columns: repeat(4, auto);
         margin-top: 8rem;
     }
-    .adr {
-        grid-template-columns: auto;
-    }
-    .adr__cell:not(:nth-child(2)):not(:nth-child(4)):not(:nth-child(6)) {
+    .adr__cell:not(:nth-child(7)):not(:nth-child(8)) {
         padding-bottom: 1.5rem;
     }
-
-    // mail
-    // phone
-    .adr__cell:nth-child(2){
-        grid-row: 2;
-        grid-column: 1;
-    }
-    // skype
-    .adr__cell:nth-child(3){
-        grid-row: 1;
-        grid-column: 2;
-    }
-    // telegram
-    .adr__cell:nth-child(4){
-        grid-row: 2;
-        grid-column: 2;
-    }
-    // hh
-    .adr__cell:nth-child(5){
-        grid-row: 1;
-        grid-column: 3;
-    }
-    // github
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1600px) {
     .adr {
         display: flex;
         justify-content: space-between;
@@ -103,4 +80,10 @@
 }
 .adr-link__github:before {
     background-image: url("../icons/github.svg");
+}
+.adr-link__twitter:before {
+    background-image: url("../icons/twitter.svg");
+}
+.adr-link__facebook:before {
+    background-image: url("../icons/facebook.svg");
 }

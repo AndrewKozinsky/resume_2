@@ -6,12 +6,12 @@ function Footer() {
 
     const addresses = useSelector(store => store.addresses, shallowEqual)
 
-    const cellsMarkup = addresses.map((cellData, i) => {
+    const cellsMarkup = addresses.map(cellData => {
 
         const linkCls = s['adr-link'] + ' black-link ' + s['adr-link__' + cellData.prefix]
 
         return (
-            <div className={s['adr__cell']} key={i}>
+            <div className={s['adr__cell']} key={cellData.prefix}>
                 <a href={cellData.href} className={linkCls}>
                     {cellData.text}
                 </a>
