@@ -5,16 +5,15 @@ import s from "./css/MainMenu.module.scss"
 
 function MainMenu() {
 
-
     return (
         <nav className={s.nav}>
-            <MenuLink label='Верстальщик' to='/'/>
-            <MenuLink label='Оформитель' to='/design'/>
+            <MenuItem label='Верстальщик' to='/'/>
+            <MenuItem label='Оформитель' to='/design'/>
         </nav>
     )
 }
 
-function MenuLink({label, to}) {
+function MenuItem({label, to}) {
     let match = useRouteMatch({
         path: to,
         exact: true
@@ -25,5 +24,6 @@ function MenuLink({label, to}) {
 
     return <Link to={to} className={cls} key={label}>{label}</Link>
 }
+
 
 export default MainMenu

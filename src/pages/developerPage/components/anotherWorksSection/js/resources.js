@@ -1,4 +1,5 @@
 
+/*
 export function getData() {
     return [
         {
@@ -18,4 +19,4 @@ export function getData() {
             description: 'https://github.com/AndrewKozinsky/react-todo'
         },
     ]
-}
+}*/

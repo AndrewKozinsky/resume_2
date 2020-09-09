@@ -1,15 +1,20 @@
 import React from 'react'
+import bd from "../../utils/bd/bd"
 import s from './css/Footer.module.scss'
-import {shallowEqual, useSelector} from "react-redux"
+
 
 function Footer() {
 
-    const addresses = useSelector(store => store.addresses, shallowEqual)
+    // Получу массив способов связи со мной
+    const contactsArr = bd.getContactsList()
 
-    const cellsMarkup = addresses.map(cellData => {
+    // Создам массив с разметкой ссылок
+    const cellsMarkup = contactsArr.map(cellData => {
 
+        // Класс ссылки
         const linkCls = s['adr-link'] + ' black-link ' + s['adr-link__' + cellData.prefix]
 
+        // Возвращаю разметку ссылки
         return (
             <div className={s['adr__cell']} key={cellData.prefix}>
                 <a href={cellData.href} className={linkCls}>

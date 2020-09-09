@@ -19,7 +19,6 @@
     background-position: 0 2px;
 
     padding-left: 30px;
-
 }
 
 .salary__trafficlight {
@@ -31,7 +30,7 @@
 .salary__move {
     color: rgb(0, 139, 255);
     background-image: url('data:image/svg+xml;utf8,<svg height="20" viewBox="0 0 23 20" width="23" xmlns="http://www.w3.org/2000/svg"><path d="m13 2.5 10.0698242 8.5-10.0698242 8.5z" fill="rgb(0, 86, 157)"/><path d="m1 8.03018001h8.03491211l-.03491211-5.53018001 10.0698242 8.5-10.0698242 8.5v-5.5h-8z" fill="rgb(0, 139, 255)"/></svg>');
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -41,7 +40,7 @@
 
 .salary__text-big {
     font-size: 2.8rem;
-    line-height: 2.8rem;
+    line-height: 3.2rem;
     font-weight: 500;
 }
 .salary__text-big--bigger {

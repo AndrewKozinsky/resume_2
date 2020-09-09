@@ -1,6 +1,6 @@
-import React from 'react'
-import s from '../css/PortfolioMenu.module.scss'
-import {Link} from "react-router-dom"
+// import React from 'react'
+// import s from '../css/PortfolioMenu.module.scss'
+// import {Link} from "react-router-dom"
 
 const menuConfig = [
     /*{
@@ -40,7 +40,7 @@ const menuConfig = [
     }*/
 ]
 
-export function createBlocks(config, currentWork, pageUrl) {
+/*export function createBlocks(config, currentWork, pageUrl) {
     return config.map( (blockObj, i) => {
 
         const header =
@@ -55,8 +55,9 @@ export function createBlocks(config, currentWork, pageUrl) {
             </div>
         )
     })
-}
+}*/
 
+/*
 function createItems(itemsArr, currentWork, pageUrl) {
 
     const itemsMarkup = itemsArr.map(itemObj => {
@@ -79,4 +80,4 @@ function createItems(itemsArr, currentWork, pageUrl) {
             {itemsMarkup}
         </ul>
     )
-}
+}*/

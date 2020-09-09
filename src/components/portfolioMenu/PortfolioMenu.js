@@ -1,34 +1,17 @@
 import React from 'react'
-import {createBlocks} from "./js/functions"
-import s from './css/PortfolioMenu.module.scss'
-import {useLocation} from "react-router-dom"
+import MobileMenu from "./components/mobileMenu"
+import Menu from "./components/menu"
 
 
-function useQuery() {
-    return new URLSearchParams(useLocation().search);
-}
-
-function PortfolioMenu({config, pageType}) {
-
-    // Объект запроса в URL
-    let query = useQuery()
-
-    let queryStr = query.get("work")
-    if(!queryStr) {
-        if(pageType === 'developer') queryStr = 'tools'
-        if(pageType === 'designer') queryStr = 'kflex'
-    }
-
-    let pageUrl
-    if(pageType === 'developer') pageUrl = '/'
-    if(pageType === 'designer') pageUrl = '/design'
-
-
+function PortfolioMenu({pageType}) {
     return (
-        <nav className={s.menu}>
-            {createBlocks(config, queryStr, pageUrl)}
-        </nav>
+        <>
+            <MobileMenu pageType={pageType} />
+            <Menu pageType={pageType} />
+        </>
     )
 }
+
+
 
 export default PortfolioMenu

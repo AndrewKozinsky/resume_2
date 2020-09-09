@@ -1,14 +1,25 @@
 .section {
-    display: grid;
-    grid-template-columns: 20rem 1fr;
-    grid-column-gap: 55px;
     margin-top: 4rem;
+    position: relative;
+    z-index: 1;
 }
 
 .section__left {
-
+    position: sticky;
+    top: 0;
 }
 
 .section__right {
 
 }
+
+@media (min-width: 1000px) {
+    .section {
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        grid-column-gap: 55px;
+    }
+}
+
+
+

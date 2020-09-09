@@ -1,9 +1,9 @@
-import React from 'react'
-import {getSecondToolsData, getToolsData} from "./js/resources"
-import s from './css/ToolsSection.module.scss'
+// import React from 'react'
+// import {getSecondToolsData, getToolsData} from "./js/resources"
+// import s from './css/ToolsSection.module.scss'
 
 
-function ToolsSection() {
+/*function ToolsSection() {
 
     return <>
         {getToolsData().map( (data, i) => Tool(data, i))}
@@ -26,10 +26,10 @@ function ToolsSection() {
             </p>
         </div>
     </>
-}
+}*/
 
 
-function Tool(data, i) {
+/*function Tool(data, i) {
     const subTools = data.subTools.map(subToolName => {
         return <span className={s['tool__subtool']} key={subToolName}>{subToolName}</span>
     })
@@ -46,9 +46,9 @@ function Tool(data, i) {
             <span className={s['tool__detail']}>Уровень: <span className={s['tool__detail-backlight']}>{data.level}</span></span>
         </p>
     </div>
-}
+}*/
 
-function SecondTool(toolData, i) {
+/*function SecondTool(toolData, i) {
     const sign = toolData.sign
         ? <img src={toolData.sign} className={s['second-tool__sign']} alt={toolData.name} />
         : null
@@ -60,7 +60,7 @@ function SecondTool(toolData, i) {
         </h3>
         <p className={s['second-tool__text']}>{toolData.text}</p>
     </div>
-}
+}*/
 
 
 

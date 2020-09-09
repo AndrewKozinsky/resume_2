@@ -1,13 +1,13 @@
-import jsSign from "../icons/js.svg"
-import reactSign from "../icons/react.svg"
-import nodeSign from "../icons/node.svg"
-import dockerSign from "../icons/docker.svg"
-import linuxSign from "../icons/linux.svg"
-import terminalSign from "../icons/terminal.svg"
-import gitSign from "../icons/git.svg"
+// import jsSign from "../icons/js.svg"
+// import reactSign from "../icons/react.svg"
+// import nodeSign from "../icons/node.svg"
+// import dockerSign from "../icons/docker.svg"
+// import linuxSign from "../icons/linux.svg"
+// import terminalSign from "../icons/terminal.svg"
+// import gitSign from "../icons/git.svg"
 
 
-export function getToolsData() {
+/*export function getToolsData() {
     return [
         {
             name: 'HTML и CSS',
@@ -31,8 +31,9 @@ export function getToolsData() {
             level: 'средний'
         },
     ]
-}
+}*/
 
+/*
 export function getSecondToolsData() {
     return [
         {
@@ -61,4 +62,4 @@ export function getSecondToolsData() {
             text: 'Самые базовые знания чтобы загрузить код на GitHub. Создавать ветки пока не требовалось.'
         }
     ]
-}
+}*/

@@ -1,6 +1,7 @@
 import React from 'react'
 import s from './css/PortfolioGrid.module.scss'
 
+
 function PortfolioGrid({children}) {
 
     const leftContent = children[0] || children

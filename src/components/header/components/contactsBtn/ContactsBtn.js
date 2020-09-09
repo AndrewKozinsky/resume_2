@@ -1,11 +1,15 @@
 import React from 'react'
-import {useSelector, shallowEqual} from "react-redux"
+import bd from "../../../../utils/bd/bd"
 import s from './css/ContactsBtn.module.scss'
 
-function ContactsBtn() {
-    const {addresses} = useSelector(store => store, shallowEqual)
 
-    const linksMarkup = addresses.map((cellData, i) => {
+function ContactsBtn() {
+
+    // Получу массив способов связи со мной
+    const contactsArr = bd.getContactsList()
+
+    // Создам массив с разметкой ссылок
+    const linksMarkup = contactsArr.map((cellData, i) => {
         const spanCls = s['contacts-btn__text'] + ' ' + s['contacts-btn__text__' + cellData.prefix]
 
         return (

@@ -1,184 +1,184 @@
-import React from 'react'
-import s from '../css/WorkSection.module.scss'
+// import React from 'react'
+// import s from '../css/WorkSection.module.scss'
 
 // Логотипы
-import accompliesLogo from '../img/logos/accomplies.svg'
-import austriaLogo from '../img/logos/austria.svg'
-import autobuyerLogo from '../img/logos/autobuyer.svg'
-import buldoorsLogo from '../img/logos/buldoors.svg'
-import frikoLogo from '../img/logos/friko.svg'
-import kflexLogo from '../img/logos/kflex.svg'
-import labandadaLogo from '../img/logos/labandada.svg'
-import maedLogo from '../img/logos/maed.png'
-import pranaLogo from '../img/logos/prana.svg'
-import provkusLogo from '../img/logos/provkus.svg'
-import remplastLogo from '../img/logos/remplast.svg'
-import rusheatLogo from '../img/logos/rusheat.svg'
-import teplomashLogo from '../img/logos/teplomash.svg'
-import volcanoLogo from '../img/logos/volcano.svg'
+// import accompliesLogo from '../img/logos/accomplies.svg'
+// import austriaLogo from '../img/logos/austria.svg'
+// import autobuyerLogo from '../img/logos/autobuyer.svg'
+// import buldoorsLogo from '../img/logos/buldoors.svg'
+// import frikoLogo from '../img/logos/friko.svg'
+// import kflexLogo from '../img/logos/kflex.svg'
+// import labandadaLogo from '../img/logos/labandada.svg'
+// import maedLogo from '../img/logos/maed.png'
+// import pranaLogo from '../img/logos/prana.svg'
+// import provkusLogo from '../img/logos/provkus.svg'
+// import remplastLogo from '../img/logos/remplast.svg'
+// import rusheatLogo from '../img/logos/rusheat.svg'
+// import teplomashLogo from '../img/logos/teplomash.svg'
+// import volcanoLogo from '../img/logos/volcano.svg'
 
 // Картинки портфолио разработчика
 
 
 // Картинки портфолио оформителя
 // Kflex DEV
-import kflex_1_png_dev from '../img/kflex_dev/kflex_1.png'
-import kflex_1_jpg_2x_dev from '../img/kflex_dev/kflex_1@2x.jpg'
-import kflex_2_jpg_dev from '../img/kflex_dev/kflex_2.jpg'
-import kflex_2_jpg_2x_dev from '../img/kflex_dev/kflex_2@2x.jpg'
-import kflex_3_jpg_dev from '../img/kflex_dev/kflex_3.jpg'
-import kflex_3_jpg_2x_dev from '../img/kflex_dev/kflex_3@2x.jpg'
-import kflex_4_png_dev from '../img/kflex_dev/kflex_4.png'
-import kflex_4_png_2x_dev from '../img/kflex_dev/kflex_4@2x.png'
-import kflex_5_png_dev from '../img/kflex_dev/kflex_5.png'
-import kflex_5_png_2x_dev from '../img/kflex_dev/kflex_5@2x.png'
-import kflex_6_png_dev from '../img/kflex_dev/kflex_6.png'
-import kflex_6_png_2x_dev from '../img/kflex_dev/kflex_6@2x.png'
+// import kflex_1_png_dev from '../img/kflex_dev/kflex_1.png'
+// import kflex_1_jpg_2x_dev from '../img/kflex_dev/kflex_1@2x.jpg'
+// import kflex_2_jpg_dev from '../img/kflex_dev/kflex_2.jpg'
+// import kflex_2_jpg_2x_dev from '../img/kflex_dev/kflex_2@2x.jpg'
+// import kflex_3_jpg_dev from '../img/kflex_dev/kflex_3.jpg'
+// import kflex_3_jpg_2x_dev from '../img/kflex_dev/kflex_3@2x.jpg'
+// import kflex_4_png_dev from '../img/kflex_dev/kflex_4.png'
+// import kflex_4_png_2x_dev from '../img/kflex_dev/kflex_4@2x.png'
+// import kflex_5_png_dev from '../img/kflex_dev/kflex_5.png'
+// import kflex_5_png_2x_dev from '../img/kflex_dev/kflex_5@2x.png'
+// import kflex_6_png_dev from '../img/kflex_dev/kflex_6.png'
+// import kflex_6_png_2x_dev from '../img/kflex_dev/kflex_6@2x.png'
 
 // Friko DEV
-import friko_1_png_dev from '../img/friko_dev/friko_1.png'
-import friko_1_png_2x_dev from '../img/friko_dev/friko_1@2x.png'
-import friko_2_png_dev from '../img/friko_dev/friko_2.png'
-import friko_2_png_2x_dev from '../img/friko_dev/friko_2@2x.png'
-import friko_3_jpg_dev from '../img/friko_dev/friko_3.jpg'
-import friko_3_jpg_2x_dev from '../img/friko_dev/friko_3@2x.jpg'
-import friko_4_png_dev from '../img/friko_dev/friko_4.png'
-import friko_4_png_2x_dev from '../img/friko_dev/friko_4@2x.png'
+// import friko_1_png_dev from '../img/friko_dev/friko_1.png'
+// import friko_1_png_2x_dev from '../img/friko_dev/friko_1@2x.png'
+// import friko_2_png_dev from '../img/friko_dev/friko_2.png'
+// import friko_2_png_2x_dev from '../img/friko_dev/friko_2@2x.png'
+// import friko_3_jpg_dev from '../img/friko_dev/friko_3.jpg'
+// import friko_3_jpg_2x_dev from '../img/friko_dev/friko_3@2x.jpg'
+// import friko_4_png_dev from '../img/friko_dev/friko_4.png'
+// import friko_4_png_2x_dev from '../img/friko_dev/friko_4@2x.png'
 
 // Volcano DEV
-import volcano_1_jpg_dev from '../img/volcano_dev/volcano_1.jpg'
-import volcano_1_jpg_2x_dev from '../img/volcano_dev/volcano_1@2x.jpg'
-import volcano_2_jpg_dev from '../img/volcano_dev/volcano_2.jpg'
-import volcano_2_jpg_2x_dev from '../img/volcano_dev/volcano_2@2x.jpg'
-import volcano_3_jpg_dev from '../img/volcano_dev/volcano_3.jpg'
-import volcano_3_jpg_2x_dev from '../img/volcano_dev/volcano_3@2x.jpg'
+// import volcano_1_jpg_dev from '../img/volcano_dev/volcano_1.jpg'
+// import volcano_1_jpg_2x_dev from '../img/volcano_dev/volcano_1@2x.jpg'
+// import volcano_2_jpg_dev from '../img/volcano_dev/volcano_2.jpg'
+// import volcano_2_jpg_2x_dev from '../img/volcano_dev/volcano_2@2x.jpg'
+// import volcano_3_jpg_dev from '../img/volcano_dev/volcano_3.jpg'
+// import volcano_3_jpg_2x_dev from '../img/volcano_dev/volcano_3@2x.jpg'
 
 // Rusheat DEV
-import rusheat_1_jpg_dev from '../img/rusheat_dev/rusheat_1.jpg'
-import rusheat_1_jpg_2x_dev from '../img/rusheat_dev/rusheat_1@2x.jpg'
-import rusheat_2_jpg_dev from '../img/rusheat_dev/rusheat_2.jpg'
-import rusheat_2_jpg_2x_dev from '../img/rusheat_dev/rusheat_2@2x.jpg'
-import rusheat_3_jpg_dev from '../img/rusheat_dev/rusheat_3.jpg'
-import rusheat_3_jpg_2x_dev from '../img/rusheat_dev/rusheat_3@2x.jpg'
-import rusheat_4_jpg_dev from '../img/rusheat_dev/rusheat_4.jpg'
-import rusheat_4_jpg_2x_dev from '../img/rusheat_dev/rusheat_4@2x.jpg'
+// import rusheat_1_jpg_dev from '../img/rusheat_dev/rusheat_1.jpg'
+// import rusheat_1_jpg_2x_dev from '../img/rusheat_dev/rusheat_1@2x.jpg'
+// import rusheat_2_jpg_dev from '../img/rusheat_dev/rusheat_2.jpg'
+// import rusheat_2_jpg_2x_dev from '../img/rusheat_dev/rusheat_2@2x.jpg'
+// import rusheat_3_jpg_dev from '../img/rusheat_dev/rusheat_3.jpg'
+// import rusheat_3_jpg_2x_dev from '../img/rusheat_dev/rusheat_3@2x.jpg'
+// import rusheat_4_jpg_dev from '../img/rusheat_dev/rusheat_4.jpg'
+// import rusheat_4_jpg_2x_dev from '../img/rusheat_dev/rusheat_4@2x.jpg'
 
 // Teplomash DEV
-import teplomash_1_jpg_dev from '../img/teplomash_dev/teplomash_1.jpg'
-import teplomash_1_jpg_2x_dev from '../img/teplomash_dev/teplomash_1@2x.jpg'
-import teplomash_2_jpg_dev from '../img/teplomash_dev/teplomash_2.jpg'
-import teplomash_2_jpg_2x_dev from '../img/teplomash_dev/teplomash_2@2x.jpg'
-import teplomash_3_jpg_dev from '../img/teplomash_dev/teplomash_3.jpg'
-import teplomash_3_jpg_2x_dev from '../img/teplomash_dev/teplomash_3@2x.jpg'
-import teplomash_4_jpg_dev from '../img/teplomash_dev/teplomash_4.jpg'
-import teplomash_4_jpg_2x_dev from '../img/teplomash_dev/teplomash_4@2x.jpg'
-import teplomash_5_jpg_dev from '../img/teplomash_dev/teplomash_5.jpg'
-import teplomash_5_jpg_2x_dev from '../img/teplomash_dev/teplomash_5@2x.jpg'
+// import teplomash_1_jpg_dev from '../img/teplomash_dev/teplomash_1.jpg'
+// import teplomash_1_jpg_2x_dev from '../img/teplomash_dev/teplomash_1@2x.jpg'
+// import teplomash_2_jpg_dev from '../img/teplomash_dev/teplomash_2.jpg'
+// import teplomash_2_jpg_2x_dev from '../img/teplomash_dev/teplomash_2@2x.jpg'
+// import teplomash_3_jpg_dev from '../img/teplomash_dev/teplomash_3.jpg'
+// import teplomash_3_jpg_2x_dev from '../img/teplomash_dev/teplomash_3@2x.jpg'
+// import teplomash_4_jpg_dev from '../img/teplomash_dev/teplomash_4.jpg'
+// import teplomash_4_jpg_2x_dev from '../img/teplomash_dev/teplomash_4@2x.jpg'
+// import teplomash_5_jpg_dev from '../img/teplomash_dev/teplomash_5.jpg'
+// import teplomash_5_jpg_2x_dev from '../img/teplomash_dev/teplomash_5@2x.jpg'
 
 // Readings DEV
-import readings_1_jpg_dev from '../img/readings_dev/readings_1.jpg'
-import readings_1_jpg_2x_dev from '../img/readings_dev/readings_1@2x.jpg'
-import readings_2_jpg_dev from '../img/readings_dev/readings_2.jpg'
-import readings_2_jpg_2x_dev from '../img/readings_dev/readings_2@2x.jpg'
-import readings_3_jpg_dev from '../img/readings_dev/readings_3.jpg'
-import readings_3_jpg_2x_dev from '../img/readings_dev/readings_3@2x.jpg'
+// import readings_1_jpg_dev from '../img/readings_dev/readings_1.jpg'
+// import readings_1_jpg_2x_dev from '../img/readings_dev/readings_1@2x.jpg'
+// import readings_2_jpg_dev from '../img/readings_dev/readings_2.jpg'
+// import readings_2_jpg_2x_dev from '../img/readings_dev/readings_2@2x.jpg'
+// import readings_3_jpg_dev from '../img/readings_dev/readings_3.jpg'
+// import readings_3_jpg_2x_dev from '../img/readings_dev/readings_3@2x.jpg'
 
 // Table DEV
-import table_1_jpg_dev from '../img/table_dev/table_1.jpg'
-import table_1_jpg_2x_dev from '../img/table_dev/table_1@2x.jpg'
-import table_2_jpg_dev from '../img/table_dev/table_2.jpg'
-import table_2_jpg_2x_dev from '../img/table_dev/table_2@2x.jpg'
+// import table_1_jpg_dev from '../img/table_dev/table_1.jpg'
+// import table_1_jpg_2x_dev from '../img/table_dev/table_1@2x.jpg'
+// import table_2_jpg_dev from '../img/table_dev/table_2.jpg'
+// import table_2_jpg_2x_dev from '../img/table_dev/table_2@2x.jpg'
 
 // Kflex DES
-import kflex_1_jpg_des from '../img/kflex_des/kflex_1.jpg'
-import kflex_1_jpg_2x_des from '../img/kflex_des/kflex_1@2x.jpg'
-import kflex_2_jpg_des from '../img/kflex_des/kflex_2.jpg'
-import kflex_2_jpg_2x_des from '../img/kflex_des/kflex_2@2x.jpg'
-import kflex_3_jpg_des from '../img/kflex_des/kflex_3.jpg'
-import kflex_3_jpg_2x_des from '../img/kflex_des/kflex_3@2x.jpg'
-import kflex_4_png_des from '../img/kflex_des/kflex_4.png'
-import kflex_4_png_2x_des from '../img/kflex_des/kflex_4@2x.png'
-import kflex_5_png_des from '../img/kflex_des/kflex_5.png'
-import kflex_5_png_2x_des from '../img/kflex_des/kflex_5@2x.png'
+// import kflex_1_jpg_des from '../img/kflex_des/kflex_1.jpg'
+// import kflex_1_jpg_2x_des from '../img/kflex_des/kflex_1@2x.jpg'
+// import kflex_2_jpg_des from '../img/kflex_des/kflex_2.jpg'
+// import kflex_2_jpg_2x_des from '../img/kflex_des/kflex_2@2x.jpg'
+// import kflex_3_jpg_des from '../img/kflex_des/kflex_3.jpg'
+// import kflex_3_jpg_2x_des from '../img/kflex_des/kflex_3@2x.jpg'
+// import kflex_4_png_des from '../img/kflex_des/kflex_4.png'
+// import kflex_4_png_2x_des from '../img/kflex_des/kflex_4@2x.png'
+// import kflex_5_png_des from '../img/kflex_des/kflex_5.png'
+// import kflex_5_png_2x_des from '../img/kflex_des/kflex_5@2x.png'
 
 // Rusheat DES
-import rusheat_1_jpg_des from '../img/rusheat_des/rusheat_1.jpg'
-import rusheat_1_jpg_2x_des from '../img/rusheat_des/rusheat_1@2x.jpg'
-import rusheat_2_jpg_des from '../img/rusheat_des/rusheat_2.jpg'
-import rusheat_2_jpg_2x_des from '../img/rusheat_des/rusheat_2@2x.jpg'
-import rusheat_3_jpg_des from '../img/rusheat_des/rusheat_3.jpg'
-import rusheat_3_jpg_2x_des from '../img/rusheat_des/rusheat_3@2x.jpg'
-import rusheat_4_jpg_des from '../img/rusheat_des/rusheat_4.jpg'
-import rusheat_4_jpg_2x_des from '../img/rusheat_des/rusheat_4@2x.jpg'
-import rusheat_5_jpg_des from '../img/rusheat_des/rusheat_5.jpg'
-import rusheat_5_jpg_2x_des from '../img/rusheat_des/rusheat_5@2x.jpg'
+// import rusheat_1_jpg_des from '../img/rusheat_des/rusheat_1.jpg'
+// import rusheat_1_jpg_2x_des from '../img/rusheat_des/rusheat_1@2x.jpg'
+// import rusheat_2_jpg_des from '../img/rusheat_des/rusheat_2.jpg'
+// import rusheat_2_jpg_2x_des from '../img/rusheat_des/rusheat_2@2x.jpg'
+// import rusheat_3_jpg_des from '../img/rusheat_des/rusheat_3.jpg'
+// import rusheat_3_jpg_2x_des from '../img/rusheat_des/rusheat_3@2x.jpg'
+// import rusheat_4_jpg_des from '../img/rusheat_des/rusheat_4.jpg'
+// import rusheat_4_jpg_2x_des from '../img/rusheat_des/rusheat_4@2x.jpg'
+// import rusheat_5_jpg_des from '../img/rusheat_des/rusheat_5.jpg'
+// import rusheat_5_jpg_2x_des from '../img/rusheat_des/rusheat_5@2x.jpg'
 
 // Letters DES
-import letters_1_jpg_des from '../img/letters_des/letters_1.jpg'
-import letters_1_jpg_2x_des from '../img/letters_des/letters_1@2x.jpg'
-import letters_2_jpg_des from '../img/letters_des/letters_2.jpg'
-import letters_2_jpg_2x_des from '../img/letters_des/letters_2@2x.jpg'
-import letters_3_jpg_des from '../img/letters_des/letters_3.jpg'
-import letters_3_jpg_2x_des from '../img/letters_des/letters_3@2x.jpg'
-import letters_4_jpg_des from '../img/letters_des/letters_4.jpg'
-import letters_4_jpg_2x_des from '../img/letters_des/letters_4@2x.jpg'
-import letters_5_jpg_des from '../img/letters_des/letters_5.jpg'
-import letters_5_jpg_2x_des from '../img/letters_des/letters_5@2x.jpg'
+// import letters_1_jpg_des from '../img/letters_des/letters_1.jpg'
+// import letters_1_jpg_2x_des from '../img/letters_des/letters_1@2x.jpg'
+// import letters_2_jpg_des from '../img/letters_des/letters_2.jpg'
+// import letters_2_jpg_2x_des from '../img/letters_des/letters_2@2x.jpg'
+// import letters_3_jpg_des from '../img/letters_des/letters_3.jpg'
+// import letters_3_jpg_2x_des from '../img/letters_des/letters_3@2x.jpg'
+// import letters_4_jpg_des from '../img/letters_des/letters_4.jpg'
+// import letters_4_jpg_2x_des from '../img/letters_des/letters_4@2x.jpg'
+// import letters_5_jpg_des from '../img/letters_des/letters_5.jpg'
+// import letters_5_jpg_2x_des from '../img/letters_des/letters_5@2x.jpg'
 
 // Volcano DES
-import volcano_1_jpg_des from '../img/volcano_des/volcano_1.jpg'
-import volcano_1_jpg_2x_des from '../img/volcano_des/volcano_1@2x.jpg'
-import volcano_2_jpg_des from '../img/volcano_des/volcano_2.jpg'
-import volcano_2_jpg_2x_des from '../img/volcano_des/volcano_2@2x.jpg'
-import volcano_3_png_des from '../img/volcano_des/volcano_3.png'
-import volcano_3_png_2x_des from '../img/volcano_des/volcano_3@2x.png'
-import volcano_4_jpg_des from '../img/volcano_des/volcano_4.jpg'
-import volcano_4_jpg_2x_des from '../img/volcano_des/volcano_4@2x.jpg'
-import volcano_5_jpg_des from '../img/volcano_des/volcano_5.jpg'
-import volcano_5_jpg_2x_des from '../img/volcano_des/volcano_5@2x.jpg'
+// import volcano_1_jpg_des from '../img/volcano_des/volcano_1.jpg'
+// import volcano_1_jpg_2x_des from '../img/volcano_des/volcano_1@2x.jpg'
+// import volcano_2_jpg_des from '../img/volcano_des/volcano_2.jpg'
+// import volcano_2_jpg_2x_des from '../img/volcano_des/volcano_2@2x.jpg'
+// import volcano_3_png_des from '../img/volcano_des/volcano_3.png'
+// import volcano_3_png_2x_des from '../img/volcano_des/volcano_3@2x.png'
+// import volcano_4_jpg_des from '../img/volcano_des/volcano_4.jpg'
+// import volcano_4_jpg_2x_des from '../img/volcano_des/volcano_4@2x.jpg'
+// import volcano_5_jpg_des from '../img/volcano_des/volcano_5.jpg'
+// import volcano_5_jpg_2x_des from '../img/volcano_des/volcano_5@2x.jpg'
 
 // Teplomash DES
-import teplomash_1_jpg_des from '../img/teplomash_des/teplomash_1.jpg'
-import teplomash_1_jpg_2x_des from '../img/teplomash_des/teplomash_1@2x.jpg'
-import teplomash_2_png_des from '../img/teplomash_des/teplomash_2.png'
-import teplomash_2_png_2x_des from '../img/teplomash_des/teplomash_2@2x.png'
-import teplomash_3_png_des from '../img/teplomash_des/teplomash_3.png'
-import teplomash_3_png_2x_des from '../img/teplomash_des/teplomash_3@2x.png'
+// import teplomash_1_jpg_des from '../img/teplomash_des/teplomash_1.jpg'
+// import teplomash_1_jpg_2x_des from '../img/teplomash_des/teplomash_1@2x.jpg'
+// import teplomash_2_png_des from '../img/teplomash_des/teplomash_2.png'
+// import teplomash_2_png_2x_des from '../img/teplomash_des/teplomash_2@2x.png'
+// import teplomash_3_png_des from '../img/teplomash_des/teplomash_3.png'
+// import teplomash_3_png_2x_des from '../img/teplomash_des/teplomash_3@2x.png'
 
 // Remplast DES
-import remplast_1_jpg_des from '../img/remplast_des/remplast_1.jpg'
-import remplast_1_jpg_2x_des from '../img/remplast_des/remplast_1@2x.jpg'
+// import remplast_1_jpg_des from '../img/remplast_des/remplast_1.jpg'
+// import remplast_1_jpg_2x_des from '../img/remplast_des/remplast_1@2x.jpg'
 
 // Labandada DES
-import labandada_1_jpg_des from '../img/labandada_des/labandada_1.jpg'
-import labandada_2_jpg_des from '../img/labandada_des/labandada_2.jpg'
-import labandada_3_jpg_des from '../img/labandada_des/labandada_3.jpg'
-import labandada_4_jpg_des from '../img/labandada_des/labandada_4.jpg'
+// import labandada_1_jpg_des from '../img/labandada_des/labandada_1.jpg'
+// import labandada_2_jpg_des from '../img/labandada_des/labandada_2.jpg'
+// import labandada_3_jpg_des from '../img/labandada_des/labandada_3.jpg'
+// import labandada_4_jpg_des from '../img/labandada_des/labandada_4.jpg'
 
 // Provkus DES
-import provkus_1_jpg_des from '../img/provkus_des/provkus_1.jpg'
+// import provkus_1_jpg_des from '../img/provkus_des/provkus_1.jpg'
 
 // Accomplices DES
-import accomplies_1_jpg_des from '../img/accomplies_des/accomplies_1.jpg'
+// import accomplies_1_jpg_des from '../img/accomplies_des/accomplies_1.jpg'
 
 // Autobayer DES
-import autobuyer_1_jpg_des from '../img/autobuyer_des/autobuyer_1.jpg'
-import autobuyer_1_jpg_2x_des from '../img/autobuyer_des/autobuyer_1@2x.jpg'
+// import autobuyer_1_jpg_des from '../img/autobuyer_des/autobuyer_1.jpg'
+// import autobuyer_1_jpg_2x_des from '../img/autobuyer_des/autobuyer_1@2x.jpg'
 
 // Buldoors DES
-import buldoors_1_jpg_des from '../img/buldoors_des/buldoors_1.jpg'
+// import buldoors_1_jpg_des from '../img/buldoors_des/buldoors_1.jpg'
 
 // Austria DES
-import austria_1_jpg_des from '../img/austria_des/austria_1.jpg'
+// import austria_1_jpg_des from '../img/austria_des/austria_1.jpg'
 
 
 // Prana DES
-import prana_1_jpg_des from '../img/prana_des/prana_1.jpg'
-import prana_2_jpg_des from '../img/prana_des/prana_2.jpg'
+// import prana_1_jpg_des from '../img/prana_des/prana_1.jpg'
+// import prana_2_jpg_des from '../img/prana_des/prana_2.jpg'
 
 
 
-export function getLogoSrc(type) {
+/*export function getLogoSrc(type) {
     switch (type) {
         case 'accomplies': return accompliesLogo
         case 'austria': return austriaLogo
@@ -196,9 +196,9 @@ export function getLogoSrc(type) {
         case 'volcano': return volcanoLogo
         default: return null
     }
-}
+}*/
 
-export function getHeaderText(type) {
+/*export function getHeaderText(type) {
     switch (type) {
         case 'accomplies': return 'Взыскание долгов'
         case 'austria': return 'Обучение в Австрии'
@@ -220,9 +220,9 @@ export function getHeaderText(type) {
         case 'table': return 'Таблица с элементами управления'
         default: return null
     }
-}
+}*/
 
-export function getLinkData(type, page) {
+/*export function getLinkData(type, page) {
 
     if(page !== 'developer') return null
 
@@ -243,9 +243,9 @@ export function getLinkData(type, page) {
     obj.href = 'http://' + obj.name
 
     return obj
-}
+}*/
 
-export function getDescription(type, page) {
+/*export function getDescription(type, page) {
 
     if(type === 'friko' && page === 'developer') {
         return 'Придумал, нарисовал и сверстал страницы и иллюстрации каталога про тепловое оборудование Фрико. Код писал в стиле jQuery. Поставить на систему управления помог программист.'
@@ -313,17 +313,17 @@ export function getDescription(type, page) {
     else {
         return 'Write text...'
     }
-}
+}*/
 
-export function createTags(type, page) {
+/*export function createTags(type, page) {
     if(page !== 'developer') return null
 
     return getTagsArr(type).map(name => {
         return <span className={s['tags__tag']} key={name}>{name}</span>
     })
-}
+}*/
 
-function getTagsArr(type) {
+/*function getTagsArr(type) {
     switch (type) {
         case 'friko': return ['БЭМ', 'Адаптивная вёрстка', 'SCSS', 'Семантическая вёрстка', 'Flex', 'Grid', 'Bootstrap', 'Ретина']
         case 'kflex': return ['БЭМ', 'Адаптивная вёрстка', 'SCSS', 'Семантическая вёрстка', 'Flex', 'Grid', 'Bootstrap', 'Ретина']
@@ -335,9 +335,9 @@ function getTagsArr(type) {
         case 'todo': return ['Node.js', 'React', 'SCSS']
         default: return []
     }
-}
+}*/
 
-export function createGitHubLink(type) {
+/*export function createGitHubLink(type) {
 
     let src
     switch (type) {
@@ -352,16 +352,17 @@ export function createGitHubLink(type) {
             Код на GitHub
         </a>
     )
-}
+}*/
 
-export function createImages(type, page) {
+/*export function createImages(type, page) {
     const imagesArr = getImagesSrc(type, page)
 
     return imagesArr.map(srcsObj => {
         return createPicture(srcsObj, type)
     })
-}
+}*/
 
+/*
 function createPicture(srcsObj, type) {
 
     const sourses = []
@@ -716,5 +717,4 @@ function getImagesSrc(type, page) {
     else {
         return []
     }
-
-}
+}*/

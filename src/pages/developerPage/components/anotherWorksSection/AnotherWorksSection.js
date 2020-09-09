@@ -1,9 +1,9 @@
-import React from 'react'
-import {getData} from "./js/resources"
-import s from './css/AnotherWorksSection.module.scss'
+// import React from 'react'
+// import {getData} from "./js/resources"
+// import s from './css/AnotherWorksSection.module.scss'
 
 
-function AnotherWorksSection() {
+/*function AnotherWorksSection() {
     return (
         getData().map( (data, i) => {
             return (
@@ -18,8 +18,8 @@ function AnotherWorksSection() {
             )
         })
     )
-}
+}*/
 
 
 
-export default AnotherWorksSection
+// export default AnotherWorksSection

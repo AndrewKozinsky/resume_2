@@ -1,16 +1,16 @@
-import React from 'react'
-import {
+// import React from 'react'
+/*import {
     createGitHubLink,
     createImages,
     createTags,
     getDescription, getHeaderText,
     getLinkData,
     getLogoSrc
-} from "./js/resources"
-import s from './css/WorkSection.module.scss'
+} from "./js/resources"*/
+// import s from './css/WorkSection.module.scss'
 
 
-function WorkSection({type, page}) {
+/*function WorkSection({type, page}) {
 
     // Логотип
     const logoSrc = getLogoSrc(type)
@@ -55,6 +55,6 @@ function WorkSection({type, page}) {
             {wrappedImages}
         </>
     )
-}
+}*/
 
-export default WorkSection
+// export default WorkSection

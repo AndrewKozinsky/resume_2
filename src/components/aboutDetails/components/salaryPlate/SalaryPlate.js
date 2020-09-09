@@ -10,10 +10,8 @@ const SalaryPlate = () => {
             <p className={s['salary__text']}>Рассчитываю на оклад</p>
             <p className={s['salary__text-big']}>
                 от&nbsp;
-                <span className={s['salary__text-big--bigger']}>40 000&nbsp;</span>
-                до&nbsp;
-                <span className={s['salary__text-big--bigger']}>70 000&nbsp;</span>
-                руб./месяц
+                <span className={s['salary__text-big--bigger']}>40&nbsp;000</span> до&nbsp;
+                <span className={s['salary__text-big--bigger']}>70&nbsp;000</span> руб./месяц
             </p>
         </aside>
     )

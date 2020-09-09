@@ -1,0 +1,115 @@
+@import "../../../../app/css/variables";
+
+
+// Внешние обёртки
+.outer-wrapper {
+    background-color: $body-color;
+}
+
+@media (min-width: 1000px) {
+    .outer-wrapper {
+        display: none;
+    }
+}
+
+.top-side {
+    position: relative;
+    z-index: 2;
+    display: flex;
+}
+
+.btn {
+    font-family: 'TT Norms', sans-serif;
+
+    font-size: 18px;
+    line-height: 22px;
+    min-width: 50px;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+
+    padding: 5px 15px 5px 15px;
+    border: 1px solid rgba($text-color, .2);
+    border-radius: $radius;
+    transition: border-color .2s;
+
+    &:hover {
+        border-color: rgba($text-color, .4);
+    }
+}
+.btn--menu {
+    background-image: url('data:image/svg+xml;utf8,<svg width="18px" height="16px" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g fill="rgb(30, 30, 30)"><rect x="1" y="2" width="16" height="2"></rect><rect x="1" y="7" width="16" height="2"></rect><rect x="1" y="12" width="8" height="2"></rect></g></svg>');
+    padding-left: 37px;
+    margin-right: 40px;
+}
+.btn--menu-open {
+    background-color: white;
+    border-bottom-color: white;
+
+    &:hover {
+        border-bottom-color: white;
+    }
+}
+
+.btn--prev {
+    background-image: url('data:image/svg+xml;utf8,<svg width="18px" height="16px" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M10,0 L0,8 L10,16 L10,11 L17.9690869,11 L18.0038641,5 L10,5 L10,0 Z M8.00086413,4.16 L8,7 L15.9928641,7 L15.9818641,9 L8,9 L8.00086413,11.839 L3.20186413,8 L8.00086413,4.16 Z" fill="rgb(30, 30, 30)" fill-rule="nonzero"></path></svg>');
+    margin-right: 10px;
+}
+.btn--next {
+    background-image: url('data:image/svg+xml;utf8,<svg width="18px" height="16px" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M8.00386413,0 L18.0038641,8 L8.00386413,16 L8.00386413,11 L0.0347772043,11 L0,5 L8.00386413,5 L8.00386413,0 Z M10.003,4.16 L10.0038641,7 L2.011,7 L2.022,9 L10.0038641,9 L10.003,11.839 L14.802,8 L10.003,4.16 Z" fill="rgb(30, 30, 30)" fill-rule="nonzero"></path></svg>');
+}
+
+.bottom-side {
+    position: relative;
+    z-index: 1;
+    transform: translateY(-1px);
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    grid-row-gap: 5px;
+    background-color: white;
+    border: 1px solid rgba($text-color, .2);
+    border-radius: 0 $radius $radius $radius;
+}
+
+.menu__block-header {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 700;
+    margin: 15px 20px 5px;
+}
+
+.menu__block {
+    & > *:first-child a {
+        padding-top: 10px;
+    }
+    & > *:last-child a {
+        padding-bottom: 10px;
+    }
+}
+
+.menu__link {
+    display: block;
+
+    padding: 7px 20px;
+    border: none;
+    transition: background-color .13s;
+
+    &:hover {
+        background-color: lighten($link-color, 50%);
+        border: none;
+    }
+}
+
+.menu__link--current,
+.menu__link--current:hover {
+    color: white;
+    background-color: $link-color;
+}

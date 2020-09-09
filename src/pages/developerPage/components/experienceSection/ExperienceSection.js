@@ -1,9 +1,9 @@
-import React from 'react'
-import {getData} from "./js/resources"
-import s from './css/ExperienceSection.module.scss'
+// import React from 'react'
+// import {getData} from "./js/resources"
+// import s from './css/ExperienceSection.module.scss'
 
 
-function ExperienceSection() {
+/*function ExperienceSection() {
     return (
         getData().map( (data, i) => {
             return (
@@ -24,8 +24,8 @@ function ExperienceSection() {
             )
         })
     )
-}
+}*/
 
 
 
-export default ExperienceSection
+// export default ExperienceSection

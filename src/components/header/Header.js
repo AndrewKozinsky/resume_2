@@ -1,7 +1,7 @@
 import React from 'react'
-import s from './css/Header.module.scss'
 import ContactsBtn from "./components/contactsBtn"
 import MainMenu from "./components/mainMenu"
+import s from './css/Header.module.scss'
 
 
 function Header() {
@@ -18,7 +18,6 @@ function Header() {
             <div className={s['header__right-side']}>
                 <ContactsBtn />
             </div>
-
         </header>
     )
 }

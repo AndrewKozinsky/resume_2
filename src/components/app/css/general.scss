@@ -31,7 +31,7 @@
 /* / Подключение шрифтов */
 
 
-:root{
+:root {
     font-size: 10px;
 }
 
@@ -54,10 +54,13 @@ body {
     font-size: 1.8rem;
     line-height: 2.4rem;
     font-weight: 300;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background-color: rgb(231, 238, 247);
+    background-color: $body-color;
+
+    overflow-x: hidden;
 }
 
 /* Стиль ссылок */
@@ -97,9 +100,8 @@ button {
     flex-direction: column;
     justify-content: space-between;
 
+    width: 100%;
     max-width: 1700px;
     margin-left: auto;
     margin-right: auto;
-
-    overflow: hidden;
 }

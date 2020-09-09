@@ -1,18 +1,15 @@
 import React from 'react'
-import s from './css/AboutIntro.module.scss'
+import bd from "../../utils/bd/bd"
 
 import myPhotoWebP from './img/my_photo.webp'
 import myPhotoWebP_2x from './img/my_photo@2x.webp'
-
 import myPhotoJpeg from './img/my_photo.jpg'
 import myPhotoJpeg_2x from './img/my_photo@2x.jpg'
 
+import s from './css/AboutIntro.module.scss'
 
-function AboutIntro({content}) {
 
-    const textContent = content.map((text, i) => {
-        return <p className={s.text} key={i}>{text}</p>
-    })
+function AboutIntro({pageType}) {
 
     return (
         <section className={s.about}>
@@ -20,14 +17,25 @@ function AboutIntro({content}) {
                 <MyPhoto />
             </div>
             <div className={s['about__text-side']}>
-                {textContent}
+                <TextContent pageType={pageType} />
             </div>
         </section>
     )
 }
 
-function MyPhoto() {
 
+function TextContent({pageType}) {
+    // Получу массив параграфов вводного текста в зависимости от pageType
+    const aboutTextArr = bd.getAboutIntroText(pageType)
+
+    // Разметка с абзацами
+    return aboutTextArr.map((text, i) => {
+        return <p className={s.text} key={i}>{text}</p>
+    })
+}
+
+
+function MyPhoto() {
     const srcSetLargeWebP = myPhotoWebP + ", " + myPhotoWebP_2x + ' 2x'
     const srcSetLargeJpeg = myPhotoJpeg + ", " + myPhotoJpeg_2x + ' 2x'
 
@@ -41,5 +49,6 @@ function MyPhoto() {
         <img src={myPhotoJpeg} className={s.photo} alt='Андрей Козинский'/>
     </picture>
 }
+
 
 export default AboutIntro
