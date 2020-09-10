@@ -16,16 +16,12 @@ import PortfolioMenu from "../../components/portfolioMenu"
 function DeveloperPage() {
 
     // Объект запроса в URL
-    let query = useQuery()
-
-
-    // Конфигурация меню
-    /*const menuConfig = */
+    // let query = useQuery()
 
 
     // Раздел с работой
     // let portfolioWork = <ToolsSection />
-    let portfolioWork = <p>Work</p>
+    // let portfolioWork = <p>Work</p>
 
     /*switch (query.get("work")) {
         case 'tools': portfolioWork = <ToolsSection />; break;
@@ -41,17 +37,17 @@ function DeveloperPage() {
         case 'another': portfolioWork = <AnotherWorksSection />; break;
     }*/
 
-    return (
+    /*return (
         <>
             <AboutIntro pageType='develop' />
 
             <AboutDetails pageType='develop' />
             <PortfolioGrid>
-                <PortfolioMenu pageType='developer' />
+                <PortfolioMenu pageType='develop' />
                 {portfolioWork}
             </PortfolioGrid>
         </>
-    )
+    )*/
 }
 
 export default DeveloperPage

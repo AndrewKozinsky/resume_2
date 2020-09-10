@@ -6,55 +6,55 @@ export default function getMenuConfig(pageType) {
             items: [
                 {
                     title: 'Kflex.ru',
-                    query: 'kflex'
+                    query: 'kflex_des'
                 },
                 {
                     title: 'Rusheat.ru',
-                    query: 'rusheat'
+                    query: 'rusheat_des'
                 },
                 {
                     title: 'Письма',
-                    query: 'letters'
+                    query: 'letters_des'
                 },
                 {
                     title: 'Volсano.ru',
-                    query: 'volcano'
+                    query: 'volcano_des'
                 },
                 {
                     title: 'Тепломаш.рф',
-                    query: 'teplomash'
+                    query: 'teplomash_des'
                 },
                 {
                     title: 'Ремпласт',
-                    query: 'remplast'
+                    query: 'remplast_des'
                 },
                 {
                     title: 'Отель LaBandada',
-                    query: 'labandada'
+                    query: 'labandada_des'
                 },
                 {
                     title: 'Диетическое питание «Про вкус»',
-                    query: 'provkus'
+                    query: 'provkus_des'
                 },
                 {
                     title: 'Взыскание долгов',
-                    query: 'accomplies'
+                    query: 'accomplies_des'
                 },
                 {
                     title: 'Деньги под залог авто',
-                    query: 'autobuyer'
+                    query: 'autobuyer_des'
                 },
                 {
                     title: 'Двери Buldoors',
-                    query: 'buldoors'
+                    query: 'buldoors_des'
                 },
                 {
                     title: 'Обучении в Австрии',
-                    query: 'austria'
+                    query: 'austria_des'
                 },
                 {
                     title: 'Коктейли Prana',
-                    query: 'prana'
+                    query: 'prana_des'
                 },
             ]
         }
@@ -66,7 +66,7 @@ export default function getMenuConfig(pageType) {
             items: [
                 {
                     title: 'Инструменты',
-                    query: 'tools'
+                    query: 'tools_dev'
                 }
             ]
         },
@@ -75,7 +75,7 @@ export default function getMenuConfig(pageType) {
             items: [
                 {
                     title: 'Опыт работы',
-                    query: 'experience'
+                    query: 'experience_dev'
                 }
             ]
         },
@@ -84,19 +84,19 @@ export default function getMenuConfig(pageType) {
             items: [
                 {
                     title: 'Дилетантские чтения',
-                    query: 'readings'
+                    query: 'readings_dev'
                 },
                 {
                     title: 'Таблица с элементами управления',
-                    query: 'table'
+                    query: 'table_dev'
                 },
                 {
                     title: 'Список дел',
-                    query: 'todo'
+                    query: 'todo_dev'
                 },
                 {
                     title: 'Остальные работы',
-                    query: 'another'
+                    query: 'another_dev'
                 }
             ]
         },
@@ -105,28 +105,28 @@ export default function getMenuConfig(pageType) {
             items: [
                 {
                     title: 'Kflex.ru',
-                    query: 'kflex'
+                    query: 'kflex_dev'
                 },
                 {
                     title: 'Фрико.рус',
-                    query: 'friko'
+                    query: 'friko_dev'
                 },
                 {
                     title: 'Volсano.ru',
-                    query: 'volcano'
+                    query: 'volcano_dev'
                 },
                 {
                     title: 'Rusheat.ru',
-                    query: 'rusheat'
+                    query: 'rusheat_dev'
                 },
                 {
                     title: 'Тепломаш.рф',
-                    query: 'teplomash'
+                    query: 'teplomash_dev'
                 },
             ]
         },
     ]
 
-    if(pageType === 'developer') return developerMenu
-    else if(pageType === 'designer') return designerMenu
+    if(pageType === 'develop') return developerMenu
+    else if(pageType === 'design') return designerMenu
 }

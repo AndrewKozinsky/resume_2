@@ -1,10 +1,10 @@
-import React from 'react';
-import {useQuery} from "../../utils/workWithUrl"
+// import React from 'react';
+// import {useQuery} from "../../utils/workWithUrl"
 
-import AboutIntro from "../../components/aboutIntro"
-import AboutDetails from "../../components/aboutDetails"
-import PortfolioGrid from "../../components/portfolioGrid"
-import PortfolioMenu from "../../components/portfolioMenu"
+// import AboutIntro from "../../components/aboutIntro"
+// import AboutDetails from "../../components/aboutDetails"
+// import PortfolioGrid from "../../components/portfolioGrid"
+// import PortfolioMenu from "../../components/portfolioMenu"
 // import ToolsSection from "../developerPage/components/toolsSection"
 // import ExperienceSection from "../developerPage/components/experienceSection"
 // import WorkSection from "../developerPage/components/workSection"
@@ -12,7 +12,7 @@ import PortfolioMenu from "../../components/portfolioMenu"
 
 
 
-function DesignPage() {
+/*function DesignPage() {
 
     // Объект запроса в URL
     let query = useQuery()
@@ -21,7 +21,7 @@ function DesignPage() {
 
 
     // Раздел с работой
-    // let portfolioWork = <WorkSection type={query.get("work") || 'kflex'} page='designer' />
+    // let portfolioWork = <WorkSection type={query.get("work") || 'kflex'} page='design' />
     let portfolioWork = <p>Work</p>
 
     return (
@@ -30,11 +30,11 @@ function DesignPage() {
 
             <AboutDetails pageType='design' />
             <PortfolioGrid>
-                <PortfolioMenu pageType='designer' />
+                <PortfolioMenu pageType='design' />
                 {portfolioWork}
             </PortfolioGrid>
         </>
     )
-}
+}*/
 
-export default DesignPage
+// export default DesignPage

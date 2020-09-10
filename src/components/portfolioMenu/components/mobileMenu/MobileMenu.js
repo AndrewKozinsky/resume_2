@@ -53,8 +53,8 @@ function Blocks({pageType, isMenuOpen}) {
 
     // Получу URL страницы
     let pageUrl
-    if(pageType === 'developer') pageUrl = '/'
-    if(pageType === 'designer') pageUrl = '/design'
+    if(pageType === 'develop') pageUrl = '/'
+    if(pageType === 'design') pageUrl = '/design'
 
 
     const items = config.map( (blockObj, i) => {

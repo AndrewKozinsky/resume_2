@@ -12,6 +12,7 @@ import './css/reset.css'
 import './css/variables.scss'
 import './css/general.scss'
 import s from './css/App.module.scss'
+import WorkPage from "../../pages/workPage"
 
 
 
@@ -23,10 +24,12 @@ function App() {
                     <Header />
                     <Switch>
                         <Route path='/' exact>
-                            <DeveloperPage />
+                            <WorkPage pageType='develop' />
+                            {/*<DeveloperPage />*/}
                         </Route>
                         <Route path='/design' exact>
-                            <DesignPage />
+                            <WorkPage pageType='design' />
+                            {/*<DesignPage />*/}
                         </Route>
                     </Switch>
                 </div>

@@ -1,0 +1,15 @@
+.another-work:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.another-work__header {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.another-work__description {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
